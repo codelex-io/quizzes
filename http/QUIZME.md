@@ -4,8 +4,8 @@
 Status code `200` meaning is:
 
 a) Internal Server Error
-b*) OK
-c) Bad Request
+a)* OK
+a) Bad Request
 
 ---
 HTTP requests can be initiated by:
