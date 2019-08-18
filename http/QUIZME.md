@@ -10,164 +10,164 @@ Status code `200` meaning is:
 ---
 HTTP requests can be initiated by:
 
-a) server only
-b*) client only
-c) both
+1. server only
+1. * client only
+1. both
 
 ---
 Which of these URL's are invalid?
 
-a) https://developer.mozilla.org
-b) https://developer.mozilla.org/en-US/docs/Learn/
-c) https://developer.mozilla.org/en-US/docs/Learn
-d*) https://developer.mozilla.org?q=URL/en-US/search
+1. https://developer.mozilla.org
+1. https://developer.mozilla.org/en-US/docs/Learn/
+1. https://developer.mozilla.org/en-US/docs/Learn
+1. * https://developer.mozilla.org?q=URL/en-US/search
 
 ---
 Why `https` instead of `http` of must be used?
 
-a) communication over `http` is encrypted
-b*) communication over `https` is encrypted
-c*) `https` improves search engine ranking
-d) `https` is faster than `http`
+1. communication over `http` is encrypted
+1. * communication over `https` is encrypted
+1. * `https` improves search engine ranking
+1. `https` is faster than `http`
 
 ---
 What is the correct usage of query parameters?
 
-a*) `...?key1=value1&key2=value2`
-b) `...?key1=value1?key2=value2`
-c) `...&key1=value1&key2=value2`
-d) `...&key1=value1?key2=value2`
+1. * `...?key1=value1&key2=value2`
+1. `...?key1=value1?key2=value2`
+1. `...&key1=value1&key2=value2`
+1. `...&key1=value1?key2=value2`
 
 ---
 Which of the following are not going to be sent to the server?
 
 `https://codelex.io/path?key=value#anchor`
 
-a) `path`
-b) `key=value`
-c*) `anchor`
-d) url is invalid
+1. `path`
+1. `key=value`
+1. * `anchor`
+1. url is invalid
 
 ---
 Which of these are not request methods?
 
-a) GET
-b*) UPDATE
-c*) INSERT
-d) HEAD
+1. GET
+1. * UPDATE
+1. * INSERT
+1. HEAD
 
 ---
 What is the purpose of HTTP request methods?
 
-a) to send headers properly
-b) to get response status code
-c*) to indicate desired action on the resource
+1. to send headers properly
+1. to get response status code
+1. * to indicate desired action on the resource
 
 ---
 What are `1xx` status code group?
 
-a*) Information responses
-b) Successful responses
-c) Redirection messages
-d) Client error responses
-e) Server error responses
+1. * Information responses
+1. Successful responses
+1. Redirection messages
+1. Client error responses
+1. Server error responses
 
 ---
 What are `2xx` status code group?
 
-a) Information responses
-b*) Successful responses
-c) Redirection messages
-d) Client error responses
-e) Server error responses
+1. Information responses
+1. * Successful responses
+1. Redirection messages
+1. Client error responses
+1. Server error responses
 
 ---
 What are `3xx` status code group?
 
-a) Information responses
-b) Successful responses
-c*) Redirection messages
-d) Client error responses
-e) Server error responses
+1. Information responses
+1. Successful responses
+1. * Redirection messages
+1. Client error responses
+1. Server error responses
 
 ---
 What are `4xx` status code group?
 
-a) Information responses
-b) Successful responses
-c) Redirection messages
-d*) Client error responses
-e) Server error responses
+1. Information responses
+1. Successful responses
+1. Redirection messages
+1. * Client error responses
+1. Server error responses
 
 ---
 What are `5xx` status code group?
 
-a) Information responses
-b) Successful responses
-c) Redirection messages
-d) Client error responses
-e*) Server error responses
+1. Information responses
+1. Successful responses
+1. Redirection messages
+1. Client error responses
+1. * Server error responses
 
 ---
 What is the meaning of `500` status code?
 
-a) Not Implemented
-b) Bad Request
-c) I'm teapot
-d*) Internal Server Error
+1. Not Implemented
+1. Bad Request
+1. I'm teapot
+1. * Internal Server Error
 
 ---
 What is the meaning of `400` status code?
 
-a) Found
-b*) Bad Request
-c) No Content
-d) Internal Server Error
+1. Found
+1. * Bad Request
+1. No Content
+1. Internal Server Error
 
 ---
 Header `user-agent` is passed:
 
-a) from server to client
-b*) from client to server
-c) in both directions
-d) there is no such header
+1. from server to client
+1. * from client to server
+1. in both directions
+1. there is no such header
 
 ---
 Headers are used to:
 
-a*) pass additional information in both directions
-b) store cookies
-c) pass additional information from client to server
+1. * pass additional information in both directions
+1. store cookies
+1. pass additional information from client to server
 
 ---
 HTTP is:
 
-a*) `stateless`
-b) `stateful`
-c) both
-d) none
+1. * `stateless`
+1. `stateful`
+1. both
+1. none
 
 ---
 Which of these can be solved by using `cookies`?
 
-a*) Session management - logins, shopping carts, game scores, or anything else the server should remember
-b*) Personalization - user preferences, themes, and other settings
-c*) Tracking - recording and analyzing user behavior
+1. * Session management - logins, shopping carts, game scores, or anything else the server should remember
+1. * Personalization - user preferences, themes, and other settings
+1. * Tracking - recording and analyzing user behavior
 
 ---
 How server can store cookie on the client?
 
-a) by sending response header: `Cookie: {cookie-name}={cookie-value}`
-b) by sending request header: `Set-Cookie: {cookie-name}={cookie-value}`
-c*) by sending response header: `Set-Cookie: {cookie-name}={cookie-value}`
-d) by sending request header: `Cookie: {cookie-name}={cookie-value}`
+1. by sending response header: `Cookie: {cookie-name}={cookie-value}`
+1. by sending request header: `Set-Cookie: {cookie-name}={cookie-value}`
+1. * by sending response header: `Set-Cookie: {cookie-name}={cookie-value}`
+1. by sending request header: `Cookie: {cookie-name}={cookie-value}`
 
 ---
 What is the meaning of `HttpOnly` cookie?
 
-a) sent over only http
-b) sent over only https
-c*) inaccessible to JavaScript
+1. sent over only http
+1. sent over only https
+1. * inaccessible to JavaScript
 
 ---
 What will be the output?
@@ -178,6 +178,6 @@ document.cookie = "tasty_cookie=strawberry";
 console.log(document.cookie);
 ```
 
-a) `"tasty_cookie=strawberry"`
-b*) `"yummy_cookie; tasty_cookie=strawberry"`
-c) runtime error will be thrown
+1. `"tasty_cookie=strawberry"`
+1. * `"yummy_cookie; tasty_cookie=strawberry"`
+1. runtime error will be thrown
