@@ -128,3 +128,19 @@ let a = [[1,2],[3,4]];
 1. `let a: number[] = [[1,2],[3,4]];`  
 1. ✔ `let a: number[][] = [[1,2],[3,4]];` 
 1. `let a: Array[][] = [[1,2],[3,4]];`
+
+---
+Which of the following is a valid arrow function?
+
+1. ✔ `let sum = (x: number, y: number) => x + y;`
+1. `let sum(): (x: number, y: number):number => x + y;`
+1. `let sum = (x: number, y: number) => return x + y;`
+1. `let sum:(x: number, y: number) => x + y;`
+
+---
+Which of these is correct type assertion syntax?
+
+1. ✔ <string>someValue
+1. someValue as string
+1. both
+1. none of these

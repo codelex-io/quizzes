@@ -2,4 +2,6 @@
 
 ## [HTTP](./http)
 
+## [JavaScript](./javascript)
+
 ## [TypeScript](./typescript)
