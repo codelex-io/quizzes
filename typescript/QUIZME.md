@@ -65,9 +65,7 @@ What is the output?
 1. ✔ 76
 
 ---
-```markdown
 `...` allows us to define a set of named constants. Using `...` can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based `...`.
-```
 
 Choose the right missing words for empty space `...`!
 
