@@ -171,7 +171,7 @@ Which of the following statements are false?
 
 ---
 ```javascript
-a=2
+a = 2
 var a
 console.log(a)
 ```
