@@ -178,4 +178,4 @@ console.log(document.cookie);
 
 a) `"tasty_cookie=strawberry"`
 b*) `"yummy_cookie; tasty_cookie=strawberry"`
-c) there will be a runtime error
+c) runtime error will be thrown
