@@ -443,10 +443,9 @@ console.log(myArray.baz);
 ---
 Which of these are the primary object types in JavaScript?
  
-1. null, undefined, object
+1. ✔ null, undefined, object
 1. function
-1. string, number, boolean
-1. ✔ a and c
+1. ✔ string, number, boolean
 
 ---
 What will be the output?
